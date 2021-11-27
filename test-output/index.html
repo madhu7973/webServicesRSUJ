@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-WebServicesRSUJ">
+              <span class="suite-name border-failed">WebServicesRSUJ</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-WebServicesRSUJ">
+                    <span>D:\APITestingProjectsWorkspace\WebServicesRSUJ\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-WebServicesRSUJ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-WebServicesRSUJ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-WebServicesRSUJ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-WebServicesRSUJ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-WebServicesRSUJ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-WebServicesRSUJ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 9 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WebServicesRSUJ" class="hide-methods failed suite-WebServicesRSUJ"> (hide)</a> <!-- hide-methods failed suite-WebServicesRSUJ -->
+                      <a href="#" panel-name="suite-WebServicesRSUJ" class="show-methods failed suite-WebServicesRSUJ"> (show)</a> <!-- show-methods failed suite-WebServicesRSUJ -->
+                    </span>
+                    <div class="method-list-content failed suite-WebServicesRSUJ">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebServicesRSUJ" title="soapServices.EmployeeServicesSingleTest" hash-for-method="SoapTest_TS">SoapTest_TS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebServicesRSUJ" title="soapServices.EmployeeServicesMultipleTest" hash-for-method="SoapTest_TS1">SoapTest_TS1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebServicesRSUJ" title="restServices.LibraryServicesMultipleTest" hash-for-method="SoapTest_TS1">SoapTest_TS1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebServicesRSUJ" title="soapServices.EmployeeServicesMultipleTest" hash-for-method="SoapTest_TS2">SoapTest_TS2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebServicesRSUJ" title="soapServices.EmployeeServicesMultipleTest" hash-for-method="SoapTest_TS3">SoapTest_TS3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebServicesRSUJ" title="restServices.LibraryServicesSingleTest" hash-for-method="restTest_TS">restTest_TS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebServicesRSUJ" title="restServices.LibraryServicesMultipleTest" hash-for-method="restTest_TS2">restTest_TS2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebServicesRSUJ" title="restServices.LibraryServicesMultipleTest" hash-for-method="restTest_TS3">restTest_TS3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebServicesRSUJ" title="restServices.LibraryServicesMultipleTest" hash-for-method="restTest_tS4">restTest_tS4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WebServicesRSUJ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WebServicesRSUJ" class="panel WebServicesRSUJ">
+          <div class="suite-WebServicesRSUJ-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">restServices.LibraryServicesSingleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="restTest_TS">
+                  </a> <!-- restTest_TS -->
+                  <span class="method-name">restTest_TS</span>
+                  <div class="stack-trace">java.lang.ExceptionInInitializerError
+	at org.codehaus.groovy.runtime.InvokerHelper.&lt;clinit&gt;(InvokerHelper.java:82)
+	at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+	at groovy.lang.GroovyObjectSupport.&lt;init&gt;(GroovyObjectSupport.java:34)
+	at groovy.lang.Binding.&lt;init&gt;(Binding.java:35)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.&lt;init&gt;(SoapUIGroovyScriptEngine.java:45)
+	at com.eviware.soapui.support.scripting.groovy.GroovyScriptEngineFactory.createScriptEngine(GroovyScriptEngineFactory.java:38)
+	at com.eviware.soapui.support.scripting.SoapUIScriptEngineRegistry.create(SoapUIScriptEngineRegistry.java:50)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.&lt;init&gt;(WsdlGroovyScriptTestStep.java:85)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.&lt;init&gt;(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.&lt;init&gt;(WsdlTestSuite.java:89)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:451)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:388)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:310)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:182)
+	at restServices.LibraryServicesSingleTest.restTest_TS(LibraryServicesSingleTest.java:21)
+	at java.util.ArrayList.forEach(Unknown Source)
+Caused by: groovy.lang.GroovyRuntimeException: Conflicting module versions. Module [groovy-all is loaded in version 2.4.17 and you are trying to load version 2.4.4
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl$DefaultModuleListener.onModule(MetaClassRegistryImpl.java:529)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanExtensionModuleFromProperties(ExtensionModuleScanner.java:81)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanExtensionModuleFromMetaInf(ExtensionModuleScanner.java:75)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanClasspathModules(ExtensionModuleScanner.java:57)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.&lt;init&gt;(MetaClassRegistryImpl.java:129)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.&lt;init&gt;(MetaClassRegistryImpl.java:90)
+	at groovy.lang.GroovySystem.&lt;clinit&gt;(GroovySystem.java:36)
+	... 47 more
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebServicesRSUJ-class-failed -->
+          <div class="suite-WebServicesRSUJ-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">restServices.LibraryServicesMultipleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SoapTest_TS1">
+                  </a> <!-- SoapTest_TS1 -->
+                  <span class="method-name">SoapTest_TS1</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+	at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+	at groovy.lang.GroovyObjectSupport.&lt;init&gt;(GroovyObjectSupport.java:34)
+	at groovy.lang.Binding.&lt;init&gt;(Binding.java:35)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.&lt;init&gt;(SoapUIGroovyScriptEngine.java:45)
+	at com.eviware.soapui.support.scripting.groovy.GroovyScriptEngineFactory.createScriptEngine(GroovyScriptEngineFactory.java:38)
+	at com.eviware.soapui.support.scripting.SoapUIScriptEngineRegistry.create(SoapUIScriptEngineRegistry.java:50)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.&lt;init&gt;(WsdlGroovyScriptTestStep.java:85)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.&lt;init&gt;(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.&lt;init&gt;(WsdlTestSuite.java:89)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:451)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:388)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:310)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:182)
+	at restServices.LibraryServicesMultipleTest.SoapTest_TS1(LibraryServicesMultipleTest.java:21)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restTest_TS2">
+                  </a> <!-- restTest_TS2 -->
+                  <span class="method-name">restTest_TS2</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+	at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+	at groovy.lang.GroovyObjectSupport.&lt;init&gt;(GroovyObjectSupport.java:34)
+	at groovy.lang.Binding.&lt;init&gt;(Binding.java:35)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.&lt;init&gt;(SoapUIGroovyScriptEngine.java:45)
+	at com.eviware.soapui.support.scripting.groovy.GroovyScriptEngineFactory.createScriptEngine(GroovyScriptEngineFactory.java:38)
+	at com.eviware.soapui.support.scripting.SoapUIScriptEngineRegistry.create(SoapUIScriptEngineRegistry.java:50)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.&lt;init&gt;(WsdlGroovyScriptTestStep.java:85)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.&lt;init&gt;(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.&lt;init&gt;(WsdlTestSuite.java:89)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:451)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:388)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:310)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:182)
+	at restServices.LibraryServicesMultipleTest.restTest_TS2(LibraryServicesMultipleTest.java:34)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restTest_TS3">
+                  </a> <!-- restTest_TS3 -->
+                  <span class="method-name">restTest_TS3</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+	at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+	at groovy.lang.GroovyObjectSupport.&lt;init&gt;(GroovyObjectSupport.java:34)
+	at groovy.lang.Binding.&lt;init&gt;(Binding.java:35)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.&lt;init&gt;(SoapUIGroovyScriptEngine.java:45)
+	at com.eviware.soapui.support.scripting.groovy.GroovyScriptEngineFactory.createScriptEngine(GroovyScriptEngineFactory.java:38)
+	at com.eviware.soapui.support.scripting.SoapUIScriptEngineRegistry.create(SoapUIScriptEngineRegistry.java:50)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.&lt;init&gt;(WsdlGroovyScriptTestStep.java:85)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.&lt;init&gt;(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.&lt;init&gt;(WsdlTestSuite.java:89)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:451)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:388)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:310)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:182)
+	at restServices.LibraryServicesMultipleTest.restTest_TS3(LibraryServicesMultipleTest.java:47)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="restTest_tS4">
+                  </a> <!-- restTest_tS4 -->
+                  <span class="method-name">restTest_tS4</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+	at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+	at groovy.lang.GroovyObjectSupport.&lt;init&gt;(GroovyObjectSupport.java:34)
+	at groovy.lang.Binding.&lt;init&gt;(Binding.java:35)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.&lt;init&gt;(SoapUIGroovyScriptEngine.java:45)
+	at com.eviware.soapui.support.scripting.groovy.GroovyScriptEngineFactory.createScriptEngine(GroovyScriptEngineFactory.java:38)
+	at com.eviware.soapui.support.scripting.SoapUIScriptEngineRegistry.create(SoapUIScriptEngineRegistry.java:50)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.&lt;init&gt;(WsdlGroovyScriptTestStep.java:85)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.&lt;init&gt;(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.&lt;init&gt;(WsdlTestSuite.java:89)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:451)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:388)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:310)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:182)
+	at restServices.LibraryServicesMultipleTest.restTest_tS4(LibraryServicesMultipleTest.java:60)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebServicesRSUJ-class-failed -->
+          <div class="suite-WebServicesRSUJ-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">soapServices.EmployeeServicesSingleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SoapTest_TS">
+                  </a> <!-- SoapTest_TS -->
+                  <span class="method-name">SoapTest_TS</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+	at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+	at groovy.lang.GroovyObjectSupport.&lt;init&gt;(GroovyObjectSupport.java:34)
+	at groovy.lang.Binding.&lt;init&gt;(Binding.java:35)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.&lt;init&gt;(SoapUIGroovyScriptEngine.java:45)
+	at com.eviware.soapui.support.scripting.groovy.GroovyScriptEngineFactory.createScriptEngine(GroovyScriptEngineFactory.java:38)
+	at com.eviware.soapui.support.scripting.SoapUIScriptEngineRegistry.create(SoapUIScriptEngineRegistry.java:50)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.&lt;init&gt;(WsdlGroovyScriptTestStep.java:85)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.&lt;init&gt;(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.&lt;init&gt;(WsdlTestSuite.java:89)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:451)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:388)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:310)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:182)
+	at soapServices.EmployeeServicesSingleTest.SoapTest_TS(EmployeeServicesSingleTest.java:24)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebServicesRSUJ-class-failed -->
+          <div class="suite-WebServicesRSUJ-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">soapServices.EmployeeServicesMultipleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SoapTest_TS1">
+                  </a> <!-- SoapTest_TS1 -->
+                  <span class="method-name">SoapTest_TS1</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+	at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+	at groovy.lang.GroovyObjectSupport.&lt;init&gt;(GroovyObjectSupport.java:34)
+	at groovy.lang.Binding.&lt;init&gt;(Binding.java:35)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.&lt;init&gt;(SoapUIGroovyScriptEngine.java:45)
+	at com.eviware.soapui.support.scripting.groovy.GroovyScriptEngineFactory.createScriptEngine(GroovyScriptEngineFactory.java:38)
+	at com.eviware.soapui.support.scripting.SoapUIScriptEngineRegistry.create(SoapUIScriptEngineRegistry.java:50)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.&lt;init&gt;(WsdlGroovyScriptTestStep.java:85)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.&lt;init&gt;(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.&lt;init&gt;(WsdlTestSuite.java:89)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:451)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:388)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:310)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:182)
+	at soapServices.EmployeeServicesMultipleTest.SoapTest_TS1(EmployeeServicesMultipleTest.java:22)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SoapTest_TS2">
+                  </a> <!-- SoapTest_TS2 -->
+                  <span class="method-name">SoapTest_TS2</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+	at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+	at groovy.lang.GroovyObjectSupport.&lt;init&gt;(GroovyObjectSupport.java:34)
+	at groovy.lang.Binding.&lt;init&gt;(Binding.java:35)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.&lt;init&gt;(SoapUIGroovyScriptEngine.java:45)
+	at com.eviware.soapui.support.scripting.groovy.GroovyScriptEngineFactory.createScriptEngine(GroovyScriptEngineFactory.java:38)
+	at com.eviware.soapui.support.scripting.SoapUIScriptEngineRegistry.create(SoapUIScriptEngineRegistry.java:50)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.&lt;init&gt;(WsdlGroovyScriptTestStep.java:85)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.&lt;init&gt;(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.&lt;init&gt;(WsdlTestSuite.java:89)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:451)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:388)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:310)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:182)
+	at soapServices.EmployeeServicesMultipleTest.SoapTest_TS2(EmployeeServicesMultipleTest.java:43)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SoapTest_TS3">
+                  </a> <!-- SoapTest_TS3 -->
+                  <span class="method-name">SoapTest_TS3</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.runtime.InvokerHelper
+	at groovy.lang.GroovyObjectSupport.getDefaultMetaClass(GroovyObjectSupport.java:61)
+	at groovy.lang.GroovyObjectSupport.&lt;init&gt;(GroovyObjectSupport.java:34)
+	at groovy.lang.Binding.&lt;init&gt;(Binding.java:35)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.&lt;init&gt;(SoapUIGroovyScriptEngine.java:45)
+	at com.eviware.soapui.support.scripting.groovy.GroovyScriptEngineFactory.createScriptEngine(GroovyScriptEngineFactory.java:38)
+	at com.eviware.soapui.support.scripting.SoapUIScriptEngineRegistry.create(SoapUIScriptEngineRegistry.java:50)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.&lt;init&gt;(WsdlGroovyScriptTestStep.java:85)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.&lt;init&gt;(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.&lt;init&gt;(WsdlTestSuite.java:89)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:451)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:388)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:310)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:213)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:194)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.&lt;init&gt;(WsdlProject.java:182)
+	at soapServices.EmployeeServicesMultipleTest.SoapTest_TS3(EmployeeServicesMultipleTest.java:64)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebServicesRSUJ-class-failed -->
+        </div> <!-- panel WebServicesRSUJ -->
+        <div panel-name="test-xml-WebServicesRSUJ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\APITestingProjectsWorkspace\WebServicesRSUJ\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;WebServicesRSUJ&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WebServicesRSUJ&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;restServices.LibraryServicesSingleTest&quot;/&gt;
+      &lt;class name=&quot;soapServices.EmployeeServicesSingleTest&quot;/&gt;
+      &lt;class name=&quot;restServices.LibraryServicesMultipleTest&quot;/&gt;
+      &lt;class name=&quot;soapServices.EmployeeServicesMultipleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WebServicesRSUJ --&gt;
+&lt;/suite&gt; &lt;!-- WebServicesRSUJ --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WebServicesRSUJ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WebServicesRSUJ</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">WebServicesRSUJ (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WebServicesRSUJ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WebServicesRSUJ</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WebServicesRSUJ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WebServicesRSUJ</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WebServicesRSUJ');
+function tableData_WebServicesRSUJ() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'restTest_TS')
+data.setCell(0, 2, 'restServices.LibraryServicesSingleTest')
+data.setCell(0, 3, 3362);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SoapTest_TS')
+data.setCell(1, 2, 'soapServices.EmployeeServicesSingleTest')
+data.setCell(1, 3, 121);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'restTest_TS3')
+data.setCell(2, 2, 'restServices.LibraryServicesMultipleTest')
+data.setCell(2, 3, 7);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SoapTest_TS1')
+data.setCell(3, 2, 'soapServices.EmployeeServicesMultipleTest')
+data.setCell(3, 3, 7);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SoapTest_TS1')
+data.setCell(4, 2, 'restServices.LibraryServicesMultipleTest')
+data.setCell(4, 3, 7);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SoapTest_TS2')
+data.setCell(5, 2, 'soapServices.EmployeeServicesMultipleTest')
+data.setCell(5, 3, 6);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'restTest_TS2')
+data.setCell(6, 2, 'restServices.LibraryServicesMultipleTest')
+data.setCell(6, 3, 6);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'restTest_tS4')
+data.setCell(7, 2, 'restServices.LibraryServicesMultipleTest')
+data.setCell(7, 3, 6);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'SoapTest_TS3')
+data.setCell(8, 2, 'soapServices.EmployeeServicesMultipleTest')
+data.setCell(8, 3, 5);
+window.suiteTableData['WebServicesRSUJ']= { tableData: data, tableDiv: 'times-div-WebServicesRSUJ'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-WebServicesRSUJ">
+              </div> <!-- times-div-WebServicesRSUJ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WebServicesRSUJ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WebServicesRSUJ</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WebServicesRSUJ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WebServicesRSUJ" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">restServices.LibraryServicesSingleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">restTest_TS</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">soapServices.EmployeeServicesSingleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SoapTest_TS</span>
+                <span class="method-start">3368 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">restServices.LibraryServicesMultipleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SoapTest_TS1</span>
+                <span class="method-start">3490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">restTest_TS2</span>
+                <span class="method-start">3497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">restTest_TS3</span>
+                <span class="method-start">3504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">restTest_tS4</span>
+                <span class="method-start">3512 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">soapServices.EmployeeServicesMultipleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SoapTest_TS1</span>
+                <span class="method-start">3518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SoapTest_TS2</span>
+                <span class="method-start">3526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SoapTest_TS3</span>
+                <span class="method-start">3532 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

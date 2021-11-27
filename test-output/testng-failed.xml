@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WebServicesRSUJ]">
+  <test thread-count="5" name="WebServicesRSUJ(failed)">
+    <classes>
+      <class name="restServices.LibraryServicesSingleTest">
+        <methods>
+          <include name="restTest_TS"/>
+        </methods>
+      </class> <!-- restServices.LibraryServicesSingleTest -->
+      <class name="restServices.LibraryServicesMultipleTest">
+        <methods>
+          <include name="SoapTest_TS1"/>
+          <include name="restTest_TS3"/>
+          <include name="restTest_tS4"/>
+          <include name="restTest_TS2"/>
+        </methods>
+      </class> <!-- restServices.LibraryServicesMultipleTest -->
+      <class name="soapServices.EmployeeServicesSingleTest">
+        <methods>
+          <include name="SoapTest_TS"/>
+        </methods>
+      </class> <!-- soapServices.EmployeeServicesSingleTest -->
+      <class name="soapServices.EmployeeServicesMultipleTest">
+        <methods>
+          <include name="SoapTest_TS2"/>
+          <include name="SoapTest_TS3"/>
+          <include name="SoapTest_TS1"/>
+        </methods>
+      </class> <!-- soapServices.EmployeeServicesMultipleTest -->
+    </classes>
+  </test> <!-- WebServicesRSUJ(failed) -->
+</suite> <!-- Failed suite [WebServicesRSUJ] -->

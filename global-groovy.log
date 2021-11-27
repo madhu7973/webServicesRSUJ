@@ -1,0 +1,57 @@
+2020-06-30 14:08:22,172 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 14:08:22,173 INFO  [log] false
+2020-06-30 14:08:22,173 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 18:53:36,152 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 18:53:36,153 INFO  [log] false
+2020-06-30 18:53:36,153 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 18:53:41,260 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 18:53:41,260 INFO  [log] false
+2020-06-30 18:53:41,260 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 18:54:54,828 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 18:54:54,829 INFO  [log] false
+2020-06-30 18:54:54,829 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 18:54:59,770 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 18:54:59,770 INFO  [log] false
+2020-06-30 18:54:59,771 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 19:05:16,933 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 19:05:16,934 INFO  [log] false
+2020-06-30 19:05:16,934 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 19:05:22,214 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 19:05:22,214 INFO  [log] false
+2020-06-30 19:05:22,214 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 19:06:15,792 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 19:06:15,808 INFO  [log] false
+2020-06-30 19:06:15,808 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 19:06:21,363 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 19:06:21,363 INFO  [log] false
+2020-06-30 19:06:21,363 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 23:32:22,888 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 23:32:22,927 INFO  [log] false
+2020-06-30 23:32:22,927 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 23:32:28,817 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 23:32:28,817 INFO  [log] false
+2020-06-30 23:32:28,817 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 23:40:01,709 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 23:40:01,710 INFO  [log] false
+2020-06-30 23:40:01,710 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-06-30 23:40:06,411 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-06-30 23:40:06,411 INFO  [log] false
+2020-06-30 23:40:06,411 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-07-01 16:56:04,076 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-07-01 16:56:04,084 INFO  [log] false
+2020-07-01 16:56:04,084 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-07-01 16:56:09,972 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-07-01 16:56:09,972 INFO  [log] false
+2020-07-01 16:56:09,972 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-07-08 00:44:41,893 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-07-08 00:44:41,916 INFO  [log] false
+2020-07-08 00:44:41,916 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-07-08 00:44:46,949 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-07-08 00:44:46,949 INFO  [log] false
+2020-07-08 00:44:46,949 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-07-09 22:18:49,839 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-07-09 22:18:49,861 INFO  [log] false
+2020-07-09 22:18:49,861 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
+2020-07-09 22:18:55,357 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03}
+2020-07-09 22:18:55,357 INFO  [log] false
+2020-07-09 22:18:55,357 INFO  [log] {aisle=333, author=madhu33, book_name=madhu-book-3, isbn=madhu03, name=madhu-book-3}
